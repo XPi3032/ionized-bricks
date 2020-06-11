@@ -1,0 +1,17 @@
+This is XPi's Very Fascinating Database.
+
+(64gb edition) This is the startup script for all new computers.
+
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get dist-upgrade -y && sudo apt autoremove -y
+sudo apt-get install geany nodered scratch scratch2 scratch3 wolfram-engine libreoffice focuswriter homebank pyroom chromium-browser rpi-chromium-mods claws-mail deluge empathy filezilla firefox-esr realvnc-vnc-viewer realvnc-vnc-server audacity kodi qmmp vlc blender gimp imagemagick shotwell rgbpaint mtpaint python3-pip python3 python python-pip abuse code-the-classics dosbox abuse maelstrom python-games minecraft-pi bleachbit guake ranger terminator htop xarchiver barrier artha galculator qpdfview qterminal kitty lxterminal matchbox-keyboard synaptic rp-bookshelf pi-package xscreensaver rp-prefapps epiphany-browser dillo midori luakit chromium-browser rpi-chromium-mods rpi-imager samba samba-common-bin cups figlet toilet toilet-fonts openssl ssl-cert php7.3-xml php7.3-dev php7.3-curl php7.3-gd php7.3-fpm php7.3-zip php7.3-intl php7.3-mbstring php7.3-cli php7.3-mysql php7.3-common php7.3-cgi php7.3-apcu php7.3-redis redis-server php-pear curl libapr1 libtool libcurl4-openssl-dev wget apt-transport-https curl -y
+sudo wget https://downloads.arduino.cc/arduino-1.8.12-linuxarm.tar.xz
+cd arduino-1.8.12
+sudo ./install.sh
+cd ..
+. <( wget -O - https://code.headmelted.com/installers/apt.sh )
+sudo wget https://github.com/angryip/ipscan/releases/download/3.7.2/ipscan_3.7.2_all.deb
+sudo dpkg -i ipscan_3.7.2_all.deb
+sudo dpkg --fix-broken install
+sudo wget https://vivaldi.com/download/vivaldi-stable_armhf.deb
+sudo dpkg -i vivaldi-stable_armhf.deb
