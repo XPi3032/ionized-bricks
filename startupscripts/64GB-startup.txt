@@ -16,3 +16,12 @@ sudo dpkg --fix-broken install
 sudo wget https://vivaldi.com/download/vivaldi-stable_armhf.deb
 sudo dpkg -i vivaldi-stable_armhf.deb
 sudo dpkg --fix-broken install
+sudo apt-get install perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions python3 python3-pip python wget apt-transport-https -y && wget http://prdownloads.sourceforge.net/webadmin/webmin_1.941_all.deb
+sudo dpkg -i webmin_1.941_all.deb
+sudo apt-get update && sudo apt-get install wget apt-transport-https -y
+wget http://ionized-bricks.pinetmedia.com/raspi-projects/spotifyconnect-client.sh
+sudo ./spotifyconnect-client.sh
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install wget apt-transport-https -y
+wget http://ionized-bricks.pinetmedia.com/raspi-projects/chromecastalternative-raspicast.sh
+sudo ./chromecast-alternative.sh
