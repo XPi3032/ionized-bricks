@@ -21,3 +21,6 @@ echo 'Downloading all remaining software.'
 sleep 1
 apt --fix-broken install -y
 apt full-upgrade -y
+echo 'Finishing and cleaning up.'
+apt autoremove -y
+echo 'DONE!'
